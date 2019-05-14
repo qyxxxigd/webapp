@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>
+			MiaoMiao
+		</title>
+	</head>
+	<body>
+		<h1>
+			This is a head
+		</h1>
+		<h2>
+			guagua22
+		</h2>
+			<strong>gagaga</strong>
+		<button>
+			This is <em>a button</em>
+		</button>
+		<ul>
+			<li>list item 1</li>
+			<li>list item 2
+			</li>
+		</ul>
+
+		<ol>
+			<li>list item 1
+				<ol>
+					<li> 111 </li>
+					<li> 222 </li>
+				</ol>
+			</li>
+			<li>list item 2</li>
+		</ol>
+
+		<a href="test1.html">Click me to go to Google</a>
+		<img src="corgi.png">
+
+		<h4>A Form</h4>
+		<form action="/my-form-submitting-page" method="post">
+			<input type="text"><br>
+			<input type="email"><br>
+			<input type="password"><br>
+			<input type="date"><br>
+			<input type="color"><br>
+			<input type="file"><br>
+			<input type="checkbox"><br>
+		</form>
+
+		<h4>The Resulting Form</h4>
+		<form action="./result-url" method="post">
+			<div>
+				<label for="text-input">Text Input:</label>
+				<input id="text-input" type="text" placeholder="Doc Brown"/>
+			</div>
+			<div>
+				<label for="choice1">Choice 1</label>
+				<input id="choice1" type="radio" value="choice-1"/>
+				<label for="choice2">Choice 2</label>
+				<input id="choice2" type="radio" value="choice-2"/>
+			</div>
+			<div>
+				<label for="drop-down">Select Dropdown Choice:</label>
+				<select id="drop-down">
+					<option value="Dogs">Dogs</option>
+					<option value="Cats">Cats</option>
+				</select>
+			</div>
+			<div>
+				<lable for="textarea">Textarea</lable>
+				<textarea cols="40" rows="4" id="textarea"></textarea>
+			</div>
+			<div>
+				<label for="checkbox">Checkbox:</label>
+				<input id="checkbox" type="checkbox"/>
+			</div>
+			<div>
+				<input type="submit" value="Submit"/>
+			</div>
+		</form>
+
+		<h4>Register</h4>
+		<div>
+			<label for="first-name">First Name:</label>
+			<input id="first-name" type="text" placeholder="John" required />
+			<label for="last-name">Last Name:</label>
+			<input id="last-name" type="text" placeholder="Smith" required />
+		</div>
+		<div>
+			<lable for="male">Male</lable>
+			<input id="male" type="radio" value="male" name="sex"/>
+			<lable for="female">Female</lable>
+			<input id="female" type="radio" value="female" name="sex"/>
+			<lable for="other">Other</lable>
+			<input id="other" type="radio" value="other" name="sex"/>
+		</div>
+		<div>
+			<label for="email">Email:</label>
+			<input id="email" type="email" placeholder="your email" required/>
+			<label for="psw">Password:</label>
+			<input id="psw" type="password" placeholder="your password" maxlength="10" minlength="10" />
+		</div>
+		<div>
+			<label for="month">Birthday:</label>
+			<select id="month">
+				<option value="" selected hidden>Month</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select>
+			<select id="day">
+				<option value="" selected hidden>Day</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+			</select>
+			<select id="year">
+				<option value="" selected hidden>Year</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+			</select>
+		</div>
+		<div>
+			<label for="agree">I agree to the terms and conditions</label>
+			<input id="agree" type="checkbox"/>
+		</div>
+		<div>
+			<input type="submit" value="Submit" required/>
+		</div>
+
+
+	</body>
+	</html>
